@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '8c55de9c-463f-4046-98a4-258013c6a661';
 
-const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
+const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org','shopify.com', 'time.is', 'icook.hk', 'ip.sb', 'malaysia.com', 'russia.com', 'singapore.com', 'skk.moe', 'www.visa.com', 'www.visa.com.sg', 'www.visa.com.hk', 'www.visa.com.tw', 'www.visa.co.jp', 'www.visakorea.com', 'www.gco.gov.qa', 'www.gov.se', 'www.gov.ua', 'www.digitalocean.com', 'www.csgo.com', 'www.shopify.com', 'www.whoer.net', 'www.whatismyip.com', 'www.ipget.net', 'www.hugedomains.com', 'www.udacity.com', ' www.4chan.org', 'www.okcupid.com', 'www.glassdoor.com', 'www.udemy.com', 'www.baipiao.eu.org', 'xn--b6gac.eu.org', 'alejandracaiccedo.com', 'log.bpminecraft.com', 'www.boba88slot.com', 'gur.gov.ua', 'www.zsu.gov.ua', 'www.iakeys.com', 'edtunnel-dgp.pages.dev', 'www.d-555.com', 'fbi.gov'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
